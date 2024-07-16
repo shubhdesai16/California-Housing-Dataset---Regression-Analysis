@@ -6,6 +6,7 @@ This repository provides a comprehensive analysis of the California Housing data
 
 **Business Understanding**
 **Problem Statement:** Predict the target variable (housing prices) based on various features in the dataset.
+
 **Importance:** Helps in understanding factors influencing housing prices, aiding in better decision-making and strategic planning.
 
 **Data Source**
@@ -13,14 +14,17 @@ The dataset, named california.csv, is sourced from Kaggle and includes features 
 Data Preparation
 
 **Handling Missing Values:** Missing values were handled by deletion.
+
 **Data Splitting:** The data was split into training (80%) and testing (20%) sets.
 
 **Methodology**
 **Model Selection:** Implemented algorithms include RandomForestRegressor, ExtraTreeRegressor, and DecisionTreeRegressor.
+
 **Evaluation Metrics:** Models were evaluated using error rates and predictive accuracy.
 
 **Results**
 **Best Model:** RandomForestRegressor with an error rate of 0.33.
+
 **Conclusions:** Highlights the significance of data preprocessing, feature engineering, and the use of model evaluation metrics.
 
 **Future Work**
